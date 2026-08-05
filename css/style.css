@@ -320,3 +320,70 @@ iframe{
 .localizacao p{
   text-align: center;
 }
+
+/* página pacotes */
+
+#cards-pacotes{
+  background-color: rgba(6, 99,46,0.5);
+
+}
+
+.car-pacote-info{
+  background-color: white;
+  border-radius: 5px;
+  padding:1%;
+  box-shadow: grey 1px 1px 5px;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.pac-fotos,
+.pac-reserva{
+  background-color: #a98e12 ;
+  color: black;
+  border-radius: 3px;
+  text-align: center;
+  padding: 5px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.pac-flex{
+  display: flex;
+  margin-top:15px;
+  justify-content: center;
+  gap:20px;
+}
+
+.pac-fotos:hover,
+.pac-reserva:hover{
+  background-color: #ecda87;
+  color: #ED6D19;
+  transition: background-color 1s; border-radius: 5%;
+}
+
+/* página acessórios*/
+
+.acessorios{
+  margin: auto;
+  padding: 15px;
+}
+
+.produtos img{
+  max-width: 100px;
+  border: #7F7F80 solid 3px;
+  border-radius: 100%;
+  box-shadow: grey 1px 1px 5px;
+
+
+}
+
+.produtos{
+  box-shadow: grey 1px 1px 5px;
+  text-align: center ;
+  padding: 20px;
+  width: 80%;
+  height: 200px;
+  margin:10px;
+  border-radius: 5px;
+}
