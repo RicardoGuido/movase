@@ -345,7 +345,7 @@ border-radius: 5px;
 
 /* configuração do responsivo */
 
-@media (min-width:700px){
+/* @media (min-width:700px){
   #topo{
     position: fixed;
     width: 100%;
@@ -477,5 +477,5 @@ font-size: 1.1em;
   .conteudo{
     width: 1200px;
   }
-  
-}
+   
+}*/
